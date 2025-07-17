@@ -1,0 +1,152 @@
+/* -------------------------------------------header */
+header {min-width:1250px;}
+header .header_wrap {
+    position:fixed; top:0; left:0;
+    width:100%;
+    padding:13px 130px;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.1);
+    background-color:#fff; z-index:700;
+}
+header .header_wrap h1 {}
+header .header_wrap .menu {
+    display:flex; justify-content:space-between; align-items:center;
+}
+header .header_wrap .menu .gnb {display:flex; margin:auto 0; gap:20px; }
+header .header_wrap .menu .gnb li {}
+header .header_wrap .menu .gnb li a {font-size:0.938rem;}
+header .header_wrap .menu .right_menu {display:flex; margin:auto 0; width:116px; gap:10px; align-items:center;}
+header .header_wrap .menu .right_menu li {}
+header .header_wrap .menu .right_menu .menu_btn {display:none;}
+header .header_wrap .menu .right_menu li a {}
+header .header_wrap .menu .right_menu li a img {}
+/* -----------------------------------------------------------검색창 */
+header .header_wrap .search_bg {
+    position:absolute; top:96px; right:210px;
+    width:500px;
+    box-shadow:2px 2px 5px 0 rgba(0,0,0,0.1);
+    text-align:right;
+    padding:10px;
+    background-color:#fff;
+    z-index:760;
+}
+header .header_wrap .search_bg .search {}
+header .header_wrap .search_bg .search form {
+    display:flex; justify-content:center;
+}
+header .header_wrap .search_bg .search form input {
+    font-size:0.938rem; border-bottom:0.5px solid #000;
+    line-height:32px; width:70%;
+}
+header .header_wrap .search_bg .search form .search_btn2 {margin-left:10px;}
+header .header_wrap .search_bg .search form .search_btn2 img {}
+header .header_wrap .search_bg .search .search_close_btn {position:absolute; top:5px; right:5px;}
+
+/* ----------------------------------------------------------------lnb */
+header .lnb_bg {
+    text-align:center;  padding:50px 0 70px;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+    position:fixed;  top:96px; left:0;
+    background-color:#fff; z-index:600; width:100%;
+}
+header .lnb_bg .lnb_wrap {width:max-content; margin:0 auto; display:flex;}
+header .lnb_bg .lnb_wrap .lnb {
+    width:120px; border-right:1px solid #eee; 
+}
+header .lnb:last-child {border:0;}
+header .lnb li {margin-bottom:15px;}
+header .lnb li a {font-size:0.813rem; font-weight:300;}
+header .lnb li a:hover {font-weight:400;}
+/* -----------------------------------------------------------------------------모바일 nav */
+header .mobile_menu {
+    width:320px; position:fixed; right:0; top: 70px; z-index:740;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.1);
+    background-color:#fff; height:100vh;
+}
+header .mobile_menu .top {padding:40px; text-align:center;}
+header .mobile_menu .top .login_btn {
+    border:1px solid #C86734;
+    font-weight:600;
+    margin-right:5px;
+    text-align:center;
+    display:inline-block; width:80.65px; height:40.67px; line-height:40.67px;
+}
+header .mobile_menu .top .join_btn {
+    border:1px solid #C86734;
+    background-color:#C86734;
+    color:#fff;
+    padding:10px 12px;
+    font-weight:600;
+}
+header .mobile_menu .top img {position:absolute; top:10px; right:10px;}
+header .mobile_menu .menu_list {}
+header .mobile_menu .menu_list .right_gnb {}
+header .mobile_menu .menu_list .right_gnb li {
+    padding:10px 20px;
+    position:relative;
+}
+header .mobile_menu .menu_list .right_gnb li .menu_more_tab {}
+header .mobile_menu .menu_list .right_gnb li .menu_more_tab a {font-weight:600;}
+header .mobile_menu .menu_list .right_gnb li .menu_more_tab .menu_more_btn {position:absolute; top:7px;right:10px;}
+header .mobile_menu .menu_list .right_gnb li .menu_more_tab .menu_more_btn img {width:19px;}
+header .mobile_menu .menu_list .right_gnb li > a {font-weight:600;}
+header .mobile_menu .menu_list .right_gnb li .mobile_lnb {}
+header .mobile_menu .menu_list .right_gnb li .mobile_lnb li {padding-left:10px;}
+header .mobile_menu .menu_list .right_gnb li .mobile_lnb li a {font-size:0.813rem; font-weight:300;}
+header .mobile_menu .menu_list .right_gnb li .mobile_lnb li a:hover {font-weight:400;}
+/* ----------------------------------------------------footer */
+#wrap footer {background-color:#C86734; padding:70px 130px; height:max-content;}
+#wrap footer .footer_wrap {display:flex; justify-content:space-between;}
+#wrap footer .footer_wrap .left_footer {display:flex; justify-content:space-between;}
+#wrap footer .footer_wrap .left_footer .logo_footer {margin-right:100px;}
+#wrap footer .footer_wrap .left_footer .logo_footer a {width:121px; margin:0 auto; display:block;}
+#wrap footer .footer_wrap .left_footer .logo_footer a img {width:100%;}
+#wrap footer .footer_wrap .left_footer .logo_footer p {
+    font-size:0.813rem; font-weight:300; color:#fff; text-align:center; line-height:120%; margin:20px 0;}
+#wrap footer .footer_wrap .left_footer .middle_footer {}
+#wrap footer .footer_wrap .left_footer .middle_footer .top {}
+#wrap footer .footer_wrap .left_footer .middle_footer .top a {font-size:0.875rem; color:#fff; margin-right:20px;}
+#wrap footer .footer_wrap .left_footer .middle_footer .company_contents {margin:15px 0;}
+#wrap footer .footer_wrap .left_footer .middle_footer .company_contents .company_line {display:flex; gap:15px}
+#wrap footer .footer_wrap .left_footer .middle_footer .company_contents p {
+    font-size:0.813rem; font-weight:300; color:#fff; margin:5px 0;}
+#wrap footer .footer_wrap .left_footer .middle_footer p {font-size:0.813rem; font-weight:300; color:#fff;}
+#wrap footer .footer_wrap .right_footer {}
+#wrap footer .footer_wrap .right_footer .sns_btn {text-align:right; margin-bottom:15px}
+#wrap footer .footer_wrap .right_footer .sns_btn a {margin:0 10px;}
+#wrap footer .footer_wrap .right_footer .sns_btn a img {width:34px;}
+#wrap footer .footer_wrap .right_footer .customer_service {}
+#wrap footer .footer_wrap .right_footer .customer_service p {font-size:0.813rem; font-weight:300; color:#fff; margin:15px 0;}
+#wrap footer .footer_wrap .right_footer .customer_service em {font-size:0.875rem; font-weight:500; color:#fff;}
+.andar_info {color:#fff; font-size:0.813rem; font-weight:300; position:relative; width:100%; display:none;}
+.andar_info img{width:13px; position:absolute; bottom:0; margin-left:5px;}
+
+/* -------------------------------------------------------------------------반응형 */
+@media screen and (max-width:1249px) {
+    header {min-width:850px;}
+    header .header_wrap {padding:0 80px;}
+    header .header_wrap .menu .gnb {display:none;}
+    header .lnb_wrap {display:none;}
+    header .header_wrap .menu .right_menu .menu_btn {display:block;}
+    header .header_wrap .search_bg {top:70px; right:155px;}
+    .andar_info {display:block;}
+    #wrap footer .footer_wrap .left_footer .middle_footer {display:none; margin:15px 0;}
+    #wrap footer .footer_wrap .left_footer {flex-flow:column nowrap;}
+}
+@media screen and (max-width:849px) {
+    header {min-width:320px;}
+    header .header_wrap {padding:13px 15px;}
+    header .header_wrap h1 a img {width:60px;}
+    header .header_wrap .menu .right_menu li button img {width:24px;}
+    header .header_wrap .menu .right_menu li a img {width:24px;}
+    header .header_wrap .search_bg {top:74px; right:0; width:100%;}
+    header .mobile_menu .menu_list .right_gnb li a {font-size:0.938rem;}
+    #wrap footer {padding:50px 80px;}
+    #wrap footer .footer_wrap {flex-flow:column nowrap;}
+    #wrap footer .footer_wrap .left_footer {align-items:center; flex-direction:column;}
+    #wrap footer .footer_wrap .left_footer .middle_footer .top a {margin-right:5px;}
+    #wrap footer .footer_wrap .left_footer .logo_footer {text-align:center;}
+    #wrap footer .footer_wrap .left_footer .logo_footer p {font-size:0.668rem;}
+    #wrap footer .footer_wrap .right_footer .sns_btn {text-align:left; margin-top:20px;}
+    #wrap footer .footer_wrap .right_footer .sns_btn a {margin:0 5px;}
+    #wrap footer .footer_wrap .right_footer .sns_btn a img {width:25px;}
+}
