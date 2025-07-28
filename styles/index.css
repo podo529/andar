@@ -239,7 +239,7 @@ img[src*=add] {width:15px;}
 @media screen and (max-width:1249px) {
     body {top:71px;}
     #wrap main .top_banner {height:700px;}
-    #wrap main .top_banner .swiper-wrapper .slide {padding-top:400px;}
+    #wrap main .top_banner .swiper-wrapper .slide {padding-top:300px; padding-right:150px;}
     /* 신상 */
     #wrap main .main_page .new_product {padding:70px 80px;}
     #wrap main .main_page .new_product .new_product_wrap .product_list {gap:15px; flex-flow:row wrap;}
@@ -275,8 +275,9 @@ img[src*=add] {width:15px;}
     #wrap main .main_page .look_book_product .look_book_right {position:relative; bottom:0; left:0; margin-top:50px;}
 }
 @media screen and (max-width:849px) {
+    body {min-width:320px;}
     #wrap main .top_banner {height:474px;}
-    #wrap main .top_banner .swiper-wrapper .slide {padding-top:200px;}
+    #wrap main .top_banner .swiper-wrapper .slide {padding-top:200px; padding-right:15px;}
     #wrap main .top_banner .swiper-wrapper .slide p {font-size:1.875rem;}
     #wrap main .top_banner .swiper-wrapper .slide span {font-size:1rem;}
     #wrap main .top_banner .banner_num {width:88px;}
