@@ -119,34 +119,3 @@ header .mobile_menu .menu_list .right_gnb li .mobile_lnb li a:hover {font-weight
 #wrap footer .footer_wrap .right_footer .customer_service em {font-size:0.875rem; font-weight:500; color:#fff;}
 .andar_info {color:#fff; font-size:0.813rem; font-weight:300; position:relative; width:100%; display:none;}
 .andar_info img{width:13px; position:absolute; bottom:0; margin-left:5px;}
-
-/* -------------------------------------------------------------------------반응형 */
-@media screen and (max-width:1249px) {
-    header {min-width:850px;}
-    header .header_wrap {padding:0 80px;}
-    header .header_wrap .menu .gnb {display:none;}
-    header .lnb_wrap {display:none;}
-    header .header_wrap .menu .right_menu .menu_btn {display:block;}
-    header .header_wrap .search_bg {top:70px; right:155px;}
-    .andar_info {display:block;}
-    #wrap footer .footer_wrap .left_footer .middle_footer {display:none; margin:15px 0;}
-    #wrap footer .footer_wrap .left_footer {flex-flow:column nowrap;}
-}
-@media screen and (max-width:849px) {
-    header {min-width:320px;}
-    header .header_wrap {padding:13px 15px;}
-    header .header_wrap h1 a img {width:60px;}
-    header .header_wrap .menu .right_menu li button img {width:24px;}
-    header .header_wrap .menu .right_menu li a img {width:24px;}
-    header .header_wrap .search_bg {top:74px; right:0; width:100%;}
-    header .mobile_menu .menu_list .right_gnb li a {font-size:0.938rem;}
-    #wrap footer {padding:50px 80px;}
-    #wrap footer .footer_wrap {flex-flow:column nowrap;}
-    #wrap footer .footer_wrap .left_footer {align-items:center; flex-direction:column;}
-    #wrap footer .footer_wrap .left_footer .middle_footer .top a {margin-right:5px;}
-    #wrap footer .footer_wrap .left_footer .logo_footer {text-align:center;}
-    #wrap footer .footer_wrap .left_footer .logo_footer p {font-size:0.668rem;}
-    #wrap footer .footer_wrap .right_footer .sns_btn {text-align:left; margin-top:20px;}
-    #wrap footer .footer_wrap .right_footer .sns_btn a {margin:0 5px;}
-    #wrap footer .footer_wrap .right_footer .sns_btn a img {width:25px;}
-}
