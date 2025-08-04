@@ -47,7 +47,7 @@ body {max-width:1920px; position:relative; top: 97px;}
 #wrap main .main_page .new_product .product_list li:last-child {display:none;}
 #wrap main .main_page .new_product .product_list li .product_img {}
 #wrap main .main_page .new_product .product_list li .product_img a {}
-#wrap main .main_page .new_product .product_list li .product_img a img {width:100%;}
+#wrap main .main_page .new_product .product_list li .product_img a img {width:100%; height:100%; object-fit:cover;}
 #wrap main .main_page .new_product .product_list li .product_img .wish_cart_btn {}
 #wrap main .main_page .new_product .product_list li .product_img .wish_cart_btn a {}
 #wrap main .main_page .new_product .product_list li a {}
@@ -100,7 +100,7 @@ body {max-width:1920px; position:relative; top: 97px;}
 #wrap main .main_page .best_product .best_right li {width:calc((100% - 30px) / 4);}
 #wrap main .main_page .best_product .best_right li .product_img {width:100%;}
 #wrap main .main_page .best_product .best_right li .product_img a {}
-#wrap main .main_page .best_product .best_right li .product_img a img {width:100%;}
+#wrap main .main_page .best_product .best_right li .product_img a img {width:100%; height:100%; object-fit:cover;}
 #wrap main .main_page .best_product .best_right li .product_img .wish_cart_btn {}
 #wrap main .main_page .best_product .best_right li a {}
 #wrap main .main_page .best_product .best_right li a span {}
@@ -121,21 +121,21 @@ body {max-width:1920px; position:relative; top: 97px;}
 #wrap main .main_page .video_product .video_bottom .product_view_more a {position: relative;}
 #wrap main .main_page .video_product .video_bottom .product_view_more a:nth-child(1) {
     height:399px; width:100%; display:inline-block;
-    background:url(../images/video001.jpg) no-repeat center / cover; margin-bottom:10.5px;
+    background:url(../images/video001.jpg) no-repeat center / auto 100%; margin-bottom:10.5px;
 }
 #wrap main .main_page .video_product .video_bottom .product_view_more a:nth-child(2) {
     height:220px; width:calc((100% - 20px) / 3); display:inline-block;
-    background:url(../images/video002.jpg) no-repeat center / cover; 
+    background:url(../images/video002.jpg) no-repeat center / auto 100%; 
 }
 #wrap main .main_page .video_product .video_bottom .product_view_more a:nth-child(3) {
     height:220px; width:calc((100% - 20px) / 3); display:inline-block;
-    background:url(../images/video003.jpg) no-repeat center / cover; 
+    background:url(../images/video003.jpg) no-repeat center / auto 100%; 
 }
 #wrap main .main_page .video_product .video_bottom .product_view_more a:nth-child(4) {
     height:220px; width:calc((100% - 20px) / 3); display:inline-block;
-    background:url(../images/video004.jpg) no-repeat center / cover;
+    background:url(../images/video004.jpg) no-repeat center / auto 100%;
 }
-#wrap main .main_page .video_product .video_bottom .product_view_more a:hover {/* background-size:120% 120%; */ animation: changeSize 0.4s linear both;}
+#wrap main .main_page .video_product .video_bottom .product_view_more a:hover {animation: changeSize 0.4s linear both;}
 #wrap main .main_page .video_product .video_bottom .product_view_more a img {position:absolute; bottom:15px; right:20px;}
 #wrap main .main_page .video_product .video_bottom .video {}
 /* 옷감배너 */
@@ -228,9 +228,9 @@ img[src*=add] {width:15px;}
 
 @keyframes changeSize {
     0% {
-    background-size: 100%;
+    background-size: auto 100%;
     }
     100% {
-    background-size: 120%;
+    background-size: auto 120%;
     }
 }
