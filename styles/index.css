@@ -147,9 +147,9 @@ body {max-width:1920px; position:relative; top: 97px;}
 #wrap main .main_page .middle_banner2 p:nth-child(2) {font-size:1.25rem;margin:5px 0 30px;}
 #wrap main .main_page .middle_banner2 p:nth-child(3) {font-size:1.375rem; line-height:120%;}
 /* 추천조합 */
-#wrap main .main_page .look_book_product {padding:90px 0; position:relative;}
+#wrap main .main_page .look_book_product {padding:90px 0; position:relative; display:flex; gap:20px; align-items:flex-end;}
 #wrap main .main_page .look_book_product .look_book_left { position:relative;}
-#wrap main .main_page .look_book_product .look_book_left .look_book_title{padding:0 130px; margin-bottom:50px;}
+#wrap main .main_page .look_book_product .look_book_left .look_book_title{padding:0 130px; margin-bottom:50px; width:calc((100% - 20px) / 2);}
 #wrap main .main_page .look_book_product .look_book_left .look_book_left_img {
     display:grid; grid-template-areas:'thum1 thum3''thum2 thum3'; grid-template-columns:384px 530px; grid-template-rows:274.62px 274.62px;}
 #wrap main .main_page .look_book_product .look_book_left .look_book_left_img img {width:100%; height:100%; object-fit:cover;}
@@ -158,12 +158,12 @@ body {max-width:1920px; position:relative; top: 97px;}
 #wrap main .main_page .look_book_product .look_book_left .look_book_left_img img:nth-child(3) {grid-area:thum3;}
 #wrap main .main_page .look_book_product .look_book_left .lookbook_left_men,
 #wrap main .main_page .look_book_product .look_book_left .lookbook_left_kids {display:none;}
-#wrap main .main_page .look_book_product .look_book_right {position:absolute; bottom:90px; left:964px;}
-#wrap main .main_page .look_book_product .look_book_right .category {display:flex; flex-flow:column nowrap;}
+#wrap main .main_page .look_book_product .look_book_right {width:calc((100% - 20px) / 2); overflow:hidden;}
+#wrap main .main_page .look_book_product .look_book_right .category {display:flex; flex-flow:column nowrap; width:100%;}
 #wrap main .main_page .look_book_product .look_book_right .category p {font-size:1.125rem;}
 #wrap main .main_page .look_book_product .look_book_right .category .category_btn {margin:20px 0 25px;}
 .look_book_swiper {width:956px;}
-.look_book_swiper .scroll_width {display:flex; width:max-content;}
+.look_book_swiper .scroll_width {display:flex; width:max-content; overflow:hidden;}
 #wrap main .main_page .look_book_product .look_book_right .category .category_btn button {}
 #wrap main .main_page .look_book_product .look_book_right .look_book_swiper .swiper-wrapper {}
 #wrap main .main_page .look_book_product .look_book_right .look_book_swiper .look_book_slide {

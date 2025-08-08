@@ -31,14 +31,14 @@
     #wrap main .main_page .middle_banner2 p:nth-child(2) {font-size:1rem;margin:5px 0 30px;}
     #wrap main .main_page .middle_banner2 p:nth-child(3) {font-size:1rem;}
     /* 추천 조합 */
-    #wrap main .main_page .look_book_product {padding:70px 80px;}
-    #wrap main .main_page .look_book_product .look_book_left .look_book_title{padding:0;}
-    #wrap main .main_page .look_book_product .look_book_left .look_book_left_img {grid-template-columns:364px 500px;}
-    #wrap main .main_page .look_book_product {display:flex; flex-flow:column nowrap;}
-    #wrap main .main_page .look_book_product .look_book_right {position:relative; bottom:0; left:0; margin-top:50px;}
+    #wrap main .main_page .look_book_product {padding:70px 80px; gap:50px; align-items:flex-start;}
+    #wrap main .main_page .look_book_product .look_book_left .look_book_title{padding:0; width:100%;}
+    #wrap main .main_page .look_book_product .look_book_left .look_book_left_img {}
+    #wrap main .main_page .look_book_product {flex-flow:column nowrap;}
+    #wrap main .main_page .look_book_product .look_book_right {width:100%;}
     /* common */
     header {min-width:850px;}
-    header .header_wrap {padding:0 80px;}
+    header .header_wrap {padding:auto 80px;}
     header .lnb_bg {display:none;}
     header .lnb_wrap {display:none;}
     header .header_wrap .menu .gnb {display:none;}
@@ -123,7 +123,7 @@
     #wrap main .main_page .benefit_wrap a img{width:60px;}
     /* common */
     header {min-width:320px;}
-    header .header_wrap {padding:13px 15px;}
+    header .header_wrap {padding:13px 15px; height:max-content;}
     header .header_wrap h1 a img {width:60px;}
     header .header_wrap .menu .right_menu li button img {width:24px;}
     header .header_wrap .menu .right_menu li a img {width:24px;}
@@ -133,7 +133,7 @@
     #wrap footer .footer_wrap {flex-flow:column nowrap;}
     #wrap footer .footer_wrap .left_footer {align-items:center; flex-direction:column; align-items:center;}
     #wrap footer .footer_wrap .left_footer .middle_footer .top a {margin-right:5px;}
-    #wrap footer .footer_wrap .left_footer .logo_footer {text-align:center;}
+    #wrap footer .footer_wrap .left_footer .logo_footer {text-align:center; margin-right:0;}
     #wrap footer .footer_wrap .left_footer .logo_footer p {font-size:0.668rem;}
     #wrap footer .footer_wrap .right_footer .sns_btn {text-align:left; margin-top:20px;}
     #wrap footer .footer_wrap .right_footer .sns_btn a {margin:0 5px;}
