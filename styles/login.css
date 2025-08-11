@@ -1,0 +1,23 @@
+/* login */
+main {max-width:400px; position:relative; top: 97px; margin:0 auto; padding:150px 0; text-align:center;}
+main h1 {font-size:2rem; font-weight:500;}
+main .sns_login {margin:70px 0 25px;}
+main .sns_login h2 {margin-bottom:25px;}
+main .sns_login .sns_btn {display:flex; gap:20px;}
+main .sns_login .sns_btn a {width:42px; display:inline-block;}
+main .sns_login .sns_btn a img {width:100%;}
+main .id_login {}
+main .id_login #login_frm {}
+main .id_login #login_frm .id_pw_wrap {}
+main .id_login #login_frm .id_pw_wrap input {}
+main .id_login #login_frm .error_msg {}
+main .id_login #login_frm #login_btn {}
+main .id_login .login_bottom {}
+main .id_login .login_bottom .login_chk {}
+main .id_login .login_bottom .login_chk input {}
+main .id_login .login_bottom .login_chk label {}
+main .id_login .login_bottom .find_login {}
+main .id_login .login_bottom .find_login a {}
+main .id_login .join_inquiry {}
+main .id_login .join_inquiry .join {}
+main .id_login .join_inquiry .order_inquiry {}

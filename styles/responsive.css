@@ -45,8 +45,8 @@
     header .header_wrap .menu .right_menu .menu_btn {display:block;}
     header .header_wrap .search_bg {top:70px; right:155px;}
     .andar_info {display:block;}
-    #wrap footer .footer_wrap .left_footer .middle_footer {display:none; margin:15px 0;}
-    #wrap footer .footer_wrap .left_footer {flex-flow:column nowrap;}
+    footer .footer_wrap .left_footer .middle_footer {display:none; margin:15px 0;}
+    footer .footer_wrap .left_footer {flex-flow:column nowrap;}
 }
 @media screen and (max-width:849px) {
     body {min-width:320px;}
@@ -129,13 +129,13 @@
     header .header_wrap .menu .right_menu li a img {width:24px;}
     header .header_wrap .search_bg {top:74px; right:0; width:100%;}
     header .mobile_menu .menu_list .right_gnb li a {font-size:0.938rem;}
-    #wrap footer {padding:50px 80px;}
-    #wrap footer .footer_wrap {flex-flow:column nowrap;}
-    #wrap footer .footer_wrap .left_footer {align-items:center; flex-direction:column; align-items:center;}
-    #wrap footer .footer_wrap .left_footer .middle_footer .top a {margin-right:5px;}
-    #wrap footer .footer_wrap .left_footer .logo_footer {text-align:center; margin-right:0;}
-    #wrap footer .footer_wrap .left_footer .logo_footer p {font-size:0.668rem;}
-    #wrap footer .footer_wrap .right_footer .sns_btn {text-align:left; margin-top:20px;}
-    #wrap footer .footer_wrap .right_footer .sns_btn a {margin:0 5px;}
-    #wrap footer .footer_wrap .right_footer .sns_btn a img {width:25px;}
+    footer {padding:50px 80px;}
+    footer .footer_wrap {flex-flow:column nowrap;}
+    footer .footer_wrap .left_footer {align-items:center; flex-direction:column; align-items:center;}
+    footer .footer_wrap .left_footer .middle_footer .top a {margin-right:5px;}
+    footer .footer_wrap .left_footer .logo_footer {text-align:center; margin-right:0;}
+    footer .footer_wrap .left_footer .logo_footer p {font-size:0.668rem;}
+    footer .footer_wrap .right_footer .sns_btn {text-align:left; margin-top:20px;}
+    footer .footer_wrap .right_footer .sns_btn a {margin:0 5px;}
+    footer .footer_wrap .right_footer .sns_btn a img {width:25px;}
 }
